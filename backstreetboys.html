@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>BESTSEAT360 - Backstreet Boys at Spark Arena</title>
+        <title>BESTSEAT360 - Concert Replay</title>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
         <link rel="stylesheet" href="/css/bestseat360_styles.css">
@@ -22,10 +22,22 @@
             <div class="main-grid" id="main-section">
                 <div class="left-options">
                     <a href="schedule.html"><img class="back-btn" id="cam-config" alt="Back Button" src="assets/hud/back.png"></a>
+                    <ul class="drivers">
+                        <img class="driver-name" id="frontofhouse" src="assets/hud/videos/frontofhouse-active.png" alt="Front of House">
+                        <img class="driver-name" id="leadguitarist" src="assets/hud/videos/leadguitarist.png" alt="Lead Guitarist">
+                        <img class="driver-name" id="bass" src="assets/hud/videos/bass.png" alt="Bass">
+                        <img class="driver-name" id="leadsinger" src="assets/hud/videos/leadsinger.png" alt="Lead Singer">
+                        <img class="driver-name" id="drummer" src="assets/hud/videos/drummer.png" alt="Drummer">
+                    </ul>
                 </div>
+                <div class="center-options">
+                </div>
+                <div class="right-options">
+                    <video class="pip-video" src="assets/pip-video.mp4" poster="/html/assets/home/poster.png" autoplay loop muted playsinline></video>
+                </div>                
                 <img src="assets/video-controls.png" alt="F1 UI" style="width: 100%; position: absolute; bottom: 0;">
             </div>
-            <video class="main-video" src="assets/hud/videos/backstreetb.mp4" poster="/html/assets/home/poster.png" autoplay loop muted playsinline></video>
+            <video class="main-video" src="assets/hud/videos/frontofhouse.mp4" poster="/html/assets/home/poster.png" autoplay loop muted playsinline></video>
         </main>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
